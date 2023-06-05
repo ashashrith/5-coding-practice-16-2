@@ -1,0 +1,136 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: auto;
+  width: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-between;
+  padding: 24px;
+  width: 100vh;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 22px;
+  color: #171f46;
+  font-weight: 500;
+  font-family: 'roboto';
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 12px;
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+
+.title {
+  height: 28px;
+  width: 200px;
+  font-size: 13px;
+  color: black;
+  outline-style: none;
+}
+
+.submit-btn {
+  height: 22px;
+  width: 45px;
+  background-color: #8b5cf6;
+  color: white;
+  font-size: 11px;
+  padding: auto;
+  border-radius: 8px;
+  border-width: 0px;
+  margin-top: 10px;
+}
+
+.image {
+  height: 30vh;
+  width: 35vh;
+  background-size: cover;
+  margin-right: 25px;
+}
+
+.line {
+  width: 90vh;
+  border-width: 1px;
+  border-color: #b5b7c4;
+}
+
+.mini {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  height: auto;
+  width: 100vh;
+}
+
+.head {
+  font-size: 17px;
+  font-weight: 600;
+  color: #171f46;
+  font-family: 'Roboto';
+}
+
+.stared {
+  height: 22px;
+  width: 60px;
+  background-color: white;
+  padding: auto;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #8b5cf6;
+  margin-right: 30px;
+  color: #8b5cf6;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  list-style: none;
+}
+
+.ex-btn {
+  height: 22px;
+  width: 60px;
+  background-color: white;
+  padding: auto;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #8b5cf6;
+  margin-right: 30px;
+  color: white;
+  background-color: #8b5cf6;
+}
